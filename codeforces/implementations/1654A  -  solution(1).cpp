@@ -1,5 +1,5 @@
 // Author Emmanuel Abdelnour
-// Approach with sorting, bad complexity (O(nlog(n))), accepted on codeforces.
+// Approach with sorting, O(nlog(n)) complexity, accepted on codeforces.
 
 #include <bits/stdc++.h>
 using namespace std;
