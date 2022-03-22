@@ -12,8 +12,8 @@ int main(){
         cin >> n;
         vector<int> v(n);
         for (int i = 0; i < n; i++) cin >> v[i];
-        max1 = max(vec[0], vec[1]);
-        max2 = min(vec[0], vec[1]);
+        max1 = max(v[0], v[1]);
+        max2 = min(v[0], v[1]);
         for (int i = 2; i < n; i++)
         {
             if(v[i] >= max1) {
