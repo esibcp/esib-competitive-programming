@@ -1,6 +1,8 @@
 class Solution {
 public:
-    
+    //Binary exponentiation
+    //Look for the algorithm implementation on the following link
+    //https://cp-algorithms.com/algebra/binary-exp.html
     double binaryPower(double x, int n){
         if(n==0){
             return 1;
