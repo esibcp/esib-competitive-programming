@@ -32,8 +32,6 @@ int main() {
         long long int sum_blue = nums[blue_ptr];
         bool flag = false;
 
-        // Used the two pointer approach because i want to 
-
         while (!flag) {
             if ((sum_red <= sum_blue) && (red_ptr - 1 >= ptrs_limit + 1)) {
                 ++count_red;
