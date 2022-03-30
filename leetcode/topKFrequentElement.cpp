@@ -10,7 +10,7 @@
 //             v.push_back(p);
 //         }
 //         sort(v.begin(),v.end(),[](pair<int,int> a , pair<int,int> b) {return a.second > b.second; });
-        
+    
 //         for(auto & p : v){
 //             cout << p.first << " " << p.second << endl;
 //         }
@@ -21,21 +21,21 @@
 //         return res;
 //     }
     
-//        vector<int> topKFrequent(vector<int>& nums, int k) {
-//         unordered_map<int,int> map;
-//         for(int num : nums){
-//             map[num]++;
-//         }
+// //        vector<int> topKFrequent(vector<int>& nums, int k) {
+// //         unordered_map<int,int> map;
+// //         for(int num : nums){
+// //             map[num]++;
+// //         }
         
-//         vector<int> res;
-//         priority_queue<pair<int,int>> pq; 
-//         for(auto it = map.begin(); it != map.end(); it++){
-//             pq.push(make_pair(it->second, it->first));
-//             if(pq.size() > (int)map.size() - k){
-//                 res.push_back(pq.top().second);
-//                 pq.pop();
-//             }
-//         }
-//         return res;
-//     }
-// };
+// //         vector<int> res;
+// //         priority_queue<pair<int,int>> pq; 
+// //         for(auto it = map.begin(); it != map.end(); it++){
+// //             pq.push(make_pair(it->second, it->first));
+// //             if(pq.size() > (int)map.size() - k){
+// //                 res.push_back(pq.top().second);
+// //                 pq.pop();
+// //             }
+// //         }
+// //         return res;
+// //     }
+// // };
